@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+        <meta charset="UTF-8">
+        <title>YOUTUBE SEARCH FORM EXAMPLE</title>
+        <link rel="icon" href="https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/72/Youtube-icon.png">
+     </head>
+     <body>
+        <h1>YOUTUBE SEARCH FORM EXAMPLE</h1>
+        <img src="https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/72/Youtube-icon.png"/>
+        <form action="https://www.youtube.com/results?">
+            <input 
+            type="text"
+            size="60"
+            name="search_query"
+            required
+            pattern="[A-Za-z]{3,}"/>
+            <button>GO YOUTUBE!</button>
+        </form>
+        <br/>
+        <form action="https://www.youtube.com/results?">
+            <textarea
+            name="search_query"
+            cols="30" 
+            rows="2" 
+            required></textarea>
+            <button>GO YOUTUBE!</button> 
+        </form>
+        <br/>
+        <form action="https://www.youtube.com/results?">
+            <input type="radio" name="search_query" value="FILMS" required/>FILMS <br/>
+            <input type="radio" name="search_query" value="VIDEO"/>VIDEO <br/>
+            <input type="radio" name="search_query" value="INFORMATION"/>INFORMATION <br/>
+            <input type="submit" value="GO YOUTUBE!"/>
+            <input type="reset" value="RESET"/>
+        </form>    
+     </body>
+</html>
