@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FLIP-CARD</title>
+    <style>
+        body {
+            background-color: #ddd;
+        }
+        .card {
+            border: 1px solid #999;
+            border-radius: 5px;
+            margin: 50px 100px;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 5px 2px #918e8e;
+            font-family: Arial;
+            text-align: center;
+            transform: rotateY(0);
+            transition: 0.5s;
+        }
+        .card:hover {
+            box-shadow: 0 0 7px 3px #918e8e;
+            transform: rotateY(180deg);
+        }
+        .card-header {
+            margin-bottom: 30px;
+        }
+        .card-h1 {
+            margin: 0;
+        }
+        .card-h2 {
+            margin: 0;
+        }
+        .card-p {
+            text-align: justify;
+        }
+        .card-img {
+            width: 100%;
+        }
+        .card-a {
+            background-color: #223;
+            color: white;
+            padding: 1opx;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .card-a:hover {
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <article class="card">
+        <header class="card-header">
+            <h1 class="card-h1">FLIP CARD</h1>
+            <h2 class="card-h2">An example of using CARDS in UX/UI design.</h2>
+        </header>
+        <img class="card-img" src="https://fastly.picsum.photos/id/1051/500/300.jpg?hmac=GhHWrCZ4HwcHnRat_UEREQgBZ6_Oskhcz4UPdSMYjzw">
+        <p class="card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque excepturi laborum, tempora sed at possimus, ratione corrupti quam voluptas iusto fugiat, ut hic ex suscipit quis adipisci ducimus voluptatum? Voluptatem consectetur consequuntur dicta alias quo totam consequatur provident distinctio assumenda.</p>
+        <footer class="card-footer">
+            <a class="card-a" href="#">SEE OTHER EXAMPLES</a>
+        </footer>
+    </article>
+</body>
+</html>

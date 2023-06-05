@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Street Block | CSS</title>
+    <style>
+        body {
+            background-color: #223;
+            color: white;
+        }
+        .street {
+            border: 1px dotted red;
+        }
+        .house {
+            width: 150px;
+            display: inline-block;
+            margin-right: 30px;
+        }
+        .house-roof {
+            width: 0px;
+            height: 0px;
+            border: 76px solid brown;
+            border-top-width: 0px;
+            border-left-color: transparent;
+            border-right-color: transparent;
+            border-bottom-width: 90px;
+        }
+        .house-wall {
+            background-color: antiquewhite;
+            width: 150px;
+            height: 150px;
+        }
+        .house-window {
+            border: 5px solid brown;
+            width: 50px;
+            height: 50px;
+            transform: translateX(45px) translateY(45px);
+        }
+        .window-1 {
+            border: 1px solid black;
+            width: 49px;
+            height: 20px;
+        }
+        .window-2 {
+            border: 1px solid black;
+            width: 23px;
+            height: 29px;
+            float: left;
+            display: block;
+        }
+        .window-3 {
+            border: 1px solid black;
+            width: 23px;
+            height: 29px;
+            float: right;
+            display: block;
+        }
+        .building-tall {
+            background-color: bisque;
+            height: 300px;
+            width: 100px;
+            display: inline-block;
+        }
+        .second-floor {
+            border: 2px solid black;
+            width: 98px;
+            height: 146px;
+        }
+        .house-window1 {
+            border: 5px solid brown;
+            width: 50px;
+            height: 50px;
+            transform: translateX(20px) translateY(45px);
+        }
+        .window-4 {
+            border: 1px solid black;
+            width: 49px;
+            height: 20px;
+        }
+        .window-5 {
+            border: 1px solid black;
+            width: 23px;
+            height: 29px;
+            float: left;
+            display: block;
+        }
+        .window-6 {
+            border: 1px solid black;
+            width: 23px;
+            height: 29px;
+            float: right;
+            display: block;
+        }    
+        .first-floor {
+            border: 2px solid black;
+            width: 98px;
+            height: 148px;
+        }
+        .door1 {
+            border: 2px solid black;
+            width: 30px;
+            height: 70px;
+            transform: translateX(33px) translateY(75px);
+            background-color: black;
+        }
+        .cloud {
+            display: inline-block;
+            vertical-align: top;
+            padding-top: 20px;
+        }
+        .building-small {
+            display: inline-block;
+
+        }
+        .house-roof1 {
+            width: 0px;
+            height: 0px;
+            border: 51px solid brown;
+            border-top-width: 0px;
+            border-left-color: transparent;
+            border-right-color: transparent;
+            border-bottom-width: 90px;
+        }
+        .house-wall1 {
+            background-color: antiquewhite;
+            width: 100px;
+            height: 100px;
+        }
+        .door {
+            border: 2px solid black;
+            width: 30px;
+            height: 70px;
+            transform: translateX(33px) translateY(27px);
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="street">
+        <div class="house">
+            <div class="house-roof"></div>
+            <div class="house-wall">
+                <div class="house-window">
+                    <div class="window-1"></div>
+                    <div class="window-2"></div>
+                    <div class="window-3"></div>
+                </div>
+            </div>
+        </div>
+        <div class="building-tall">
+            <div class="second-floor">
+                <div class="house-window1">
+                    <div class="window-4"></div>
+                    <div class="window-5"></div>
+                    <div class="window-6"></div>
+                </div>
+            </div>
+            <div class="first-floor">
+                <div class="door1"></div>
+            </div>
+        </div>
+        <div class="cloud"><img src="https://icons.iconarchive.com/icons/custom-icon-design/pretty-office-12/72/cloud-icon.png" alt=""></div>
+        <div class="building-small">
+            <div class="house-roof1"></div>
+            <div class="house-wall1">
+                <div class="door"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
