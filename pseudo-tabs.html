@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Pseudo Selectors</title>
+    <style>
+        .tabs {
+            list-style: none;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #bbb;
+        }
+        .tabs-item {
+            border: 1px solid #ccc;
+            display: inline-block;
+            padding: 10px;
+            margin: 5px;
+            width: 80px;
+            height: 90px;
+            vertical-align: top;
+            text-align: center;
+            border-radius: 5px;
+            transition: 0.25s;
+        }
+        .tabs-item:hover {
+            background-color: #BBB;
+
+        }
+        .tabs-link {
+            text-decoration: none;
+            color: #222;
+        }
+        .tabs-options {
+            font-size: 32px;
+            line-height: 6px;
+            background-color: #999;
+            height: 32px;
+            width: 32px;
+            border-radius: 32px;
+            transform: translateX(58px) translateY(-105px);
+            opacity: 0;
+            transition: 0.5s;
+        }
+        .tabs-options:hover {
+            opacity: 1.0;
+        }
+    </style>
+</head>
+<body>
+    <ul class="tabs">
+        <li class="tabs-item">
+            <a class="tabs-link" href="">
+                <img src="https://icons.iconarchive.com/icons/icons8/windows-8/72/Programming-Github-icon.png" >
+                <br/>
+                GITHUB
+            </a>
+            <div class="tabs-options">
+                .
+                <br/>
+                .
+                <br/>
+                .
+            </div>
+        </li>
+        <li class="tabs-item">
+            <a class="tabs-link" href="">
+                <img src="https://icons.iconarchive.com/icons/yootheme/social-bookmark/72/social-facebook-button-blue-icon.png">
+                <br/>
+                FACEBOOK
+            </a>
+            <div class="tabs-options">
+                .
+                <br/>
+                .
+                <br/>
+                .
+            </div>
+        </li>
+        <li class="tabs-item">
+            <a class="tabs-link" href="">
+                <img src="https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/72/Youtube-icon.png">
+                <br/>
+                YOUTUBE
+            </a>
+            <div class="tabs-options">
+                .
+                <br/>
+                .
+                <br/>
+                .
+            </div>
+        </li>
+    </ul>
+</body>
+</html>
