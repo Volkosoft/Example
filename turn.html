@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TURN IMAGE</title>
+    <style>
+        body{
+            text-align: center;
+            margin: 50px;
+        }
+        img {
+            margin: 20px;
+        }
+        a {
+            padding: 25px;
+            background-image: url(arrow-right-top-bold.svg);
+            background-repeat: no-repeat;
+            background-position: 0;
+            background-size: 50px 50px;
+        }
+        input:hover + img {
+            transform: rotate(90deg);
+            transition: 1s;
+        }
+        input {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <input id="button" type="checkbox">
+    <img src="https://fastly.picsum.photos/id/255/500/500.jpg?hmac=0_gCBQ2wIYM18DMuuWlnanMpoOuVB7AIPbqsyCSLlKg" />
+    <br/>
+    <label for="button">
+    <a href=""></a>
+    </label>
+</body>
+</html>
