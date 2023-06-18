@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Business Card Example</title>
+  <style>
+    body{
+      background-color: #EEE;
+    }
+    h1,h2,p,ul{
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+    #business-card{
+      background-color: #111;
+      width: 400px;
+      height: 200px;
+      text-align: center;
+      box-shadow: 0 0 10px;
+    }
+    #business-card .name{
+     padding: 5px;
+     display: inline-block;
+     text-align: right;
+     
+    }
+    #business-card .info{
+     border-left: 2px solid white;
+     padding: 5px;
+     margin-top: 40px;
+     display: inline-block;
+     text-align: left;
+    }
+    #business-card .name h1{
+      color: white;
+    }
+    #business-card .name h2{
+      color: darkgoldenrod;
+    }
+    #business-card .name small{
+      color: #7e7d7d;
+    }
+    #business-card .info p {
+        color: white;
+    }
+    #business-card .info li{
+        color: #7e7d7d;
+        padding: 3px 0;
+    }    
+    #business-card .info li:first-child::before {
+        content: "🕿";
+    }
+    #business-card .info li:nth-child(2)::before {
+        content: "📩";
+    }
+    #business-card .info li:last-child::before {
+        content: "🌐";
+    }
+  </style>
+</head>
+<body>
+  <div id="business-card">
+
+    <div class="name">
+      <h1>Firstname</h1>
+      <h2>Lastname</h2>
+      <small>web designer &#47; developer</small>
+    </div>
+    <div class="info">
+      <p>12345 Some Street, City<br>State, Province, Country</p>
+       <ul>
+         <li>+00 22 333444</li>
+         <li>email@somemail.example</li>
+         <li>www.exampledomain.example</li>
+       </ul>
+    </div>
+
+  </div>
+</body>
+</html>
